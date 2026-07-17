@@ -1,0 +1,98 @@
+body {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background: #000000;
+    /* GitHub dark background */
+    color: #c9d1d9;
+    /* Light text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    background: #1F150C;
+    /* Dark card background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #58a6ff;
+    /* Accent color */
+}
+
+input {
+    padding: 10px;
+    width: 70%;
+    margin: 10px 0;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background: #0d1117;
+    color: #c9d1d9;
+}
+
+input:focus {
+    outline: none;
+    border-color: #58a6ff;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background: #238636;
+    /* GitHub green */
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #2ea043;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.card {
+    background: #412D15;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #58a6ff;
+}
+
+.card a {
+    display: inline-block;
+    margin: 2.5px;
+    padding: 2.5px;
+    text-decoration: none;
+    color: aqua;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+    transition: ease-in-out 0.5s;
+}
+
+.card a:hover {
+    color: burlywood;
+    transition: ease-in-out 0.5s;
+}
+
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+}
